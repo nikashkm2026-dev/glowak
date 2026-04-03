@@ -4,9 +4,9 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "homepage": "https://sviatoslava13.github.io/glowak",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "deploy": "gh-pages -d dist"
+  "start": "parcel",
+  "build": "parcel build src/index.html --public-url ./",
+  "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
